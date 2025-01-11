@@ -15,6 +15,18 @@
         line-height: 5px;
         text-transform: lowercase;
     }
+    .day2 {
+        font-size: 90px;
+        font-weight: 700;
+        line-height: 5px;
+        font-family: Ubuntu;
+        width:300px; height:250px;
+    }
+    .month2 {
+        font-size: 70px;
+        line-height: 5px;
+        text-transform: lowercase;
+    }
     .container {
         left: 50%;
         position: fixed;
@@ -40,6 +52,16 @@
         padding: 2em;
         width: 450px;
     }
+
+    .calendar2 {
+        background: #fcfbf8;
+        border-radius: 0 0 1em 1em;
+        color: #142af0;
+        display: inline-block;
+        padding: 2em;
+        width: 450px;
+        border: 2px dotted black;
+    }
     .calendar td {
         padding: 5px 20px;
         text-align: center;
@@ -62,6 +84,13 @@
         background: #cacaca;
         color: #fff;
     }
+    th, td {
+        background-color:rgb(255, 255, 250);
+        font-size:20px;
+        font-weight:300;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
 </style>
 
 </head>
@@ -76,12 +105,13 @@
         </head>
     <body>
     
+
     <div class="container">
         <header>
-          <h1 class="day">18</h1>
-          <h2 class="month">August</h2>
+          <h1 class="day2">28th</h1>
+          <h2 class="month2">September</h2>
         </header>
-        <table class="calendar">    
+        <table class="calendar2">    
             <tr>
               <th>Mon</th>
               <th>Tue</th>
@@ -92,8 +122,8 @@
               <th>Sun</th>
             </tr>
             <tr>
+              <td>29</td>
               <td>30</td>
-              <td>31</td>
               <td>1</td>
               <td>2</td>
               <td>3</td>
@@ -130,7 +160,6 @@
             </tr>
             <td>26</td>
             <td>27</td>
-            <td>28</td>
             </tr>
         </table>
     </div>
